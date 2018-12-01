@@ -1,0 +1,12 @@
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "themes/osprey"]
+	path = themes/osprey
+	url = https://github.com/tomanistor/osprey.git
+[submodule "themes/alageek"]
+	path = themes/alageek
+	url = https://github.com/gkmngrgn/hugo-alageek-theme.git
+[submodule "themes/yoki-go"]
+	path = themes/yoki-go
+	url = https://github.com/arsalan86/yoki-go

@@ -1,0 +1,48 @@
+#baseURL = "http://example.org/"
+#languageCode = "en-us"
+#title = "My New Hugo Site"
+#theme = "alageek"
+
+author = "Gökmen Görgen"
+baseurl = "/"
+canonifyurls = true
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+paginate = 3
+theme = "alageek"
+title = "My New Hugo Site"
+
+[params]
+copyright = "© 2018 by Arsalan Pirzada"
+copyrightUrl = "https://www.arsalanpirzada.com/"
+faviconfile = "https://www.arsalanpirzada.com/favicon.ico"
+latestpostcount = 5
+logofile = "http://placehold.jp/120x120.png"
+highlightjs = true
+
+[[params.best_posts]]
+title = "Migrate to Hugo from Jekyll"
+url = "/blog/migrate-from-jekyll/"
+
+[[menu.primary]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 10
+
+[[menu.primary]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
+
+[[menu.secondary]]
+identifier = "patreon"
+name = "Become a patron"
+url = "https://www.patreon.com/bePatron?u=10637849"
+weight = 110
+
+[[menu.secondary]]
+identifier = "bmc"
+name = "Buy me a coffee"
+url = "https://www.buymeacoffee.com/gokmen"
+weight = 120
