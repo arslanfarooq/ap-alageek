@@ -9,7 +9,7 @@ canonifyurls = true
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 3
 theme = "alageek"
-title = "My New Hugo Site"
+title = "Arsalan Pirzada"
 
 [params]
 copyright = "© 2018 by Arsalan Pirzada"
@@ -19,7 +19,7 @@ latestpostcount = 5
 logofile = "http://placehold.jp/120x120.png"
 highlightjs = true
 
-[[params.best_posts]]
+[[params.featured_posts]]
 title = "Migrate to Hugo from Jekyll"
 url = "/blog/migrate-from-jekyll/"
 
@@ -35,14 +35,32 @@ name = "About"
 url = "/about/"
 weight = 20
 
+[[menu.primary]]
+identifier = "work"
+name = "Work"
+url = "/work/"
+weight = 30
+
 [[menu.secondary]]
-identifier = "patreon"
-name = "Become a patron"
-url = "https://www.patreon.com/bePatron?u=10637849"
+identifier = "email"
+name = "Contact"
+url = "mailto:public@arsalanpirzada.com"
 weight = 110
 
 [[menu.secondary]]
-identifier = "bmc"
-name = "Buy me a coffee"
-url = "https://www.buymeacoffee.com/gokmen"
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/arsalan86"
 weight = 120
+
+[[menu.secondary]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/arsalan-pirzada-495375146/"
+weight = 130
+
+[[menu.secondary]]
+identifier = "feed"
+name = "Feed"
+url = "http://localhost:1313/index.xml"
+weight = 130
